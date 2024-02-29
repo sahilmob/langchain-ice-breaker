@@ -7,7 +7,6 @@ def scrape_linkedin_profile():
     Manually scrape the information for the linkedin profile"""
     api_endpoint = " https://gist.githubusercontent.com/sahilmob/30f8cbff9b3772509608f40c33443b4a/raw/4f59ab4e49e531535b3869ad71766574f14dde23/eden-marco.json"
     response = requests.get(api_endpoint)
-    response
 
     data = response.json()
 
